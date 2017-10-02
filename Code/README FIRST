@@ -1,0 +1,22 @@
+to run the code you first need to have wampserver on your machine or something similar.
+
+you need create a database on myPhpAdmin called project
+make sure that the username for PhPMyAdmin is root and that there is no password.
+
+you need create a table called users which has 'email_adress' field, 'first_name' field, 'last_name' field, 'school' field, 'occupation' 
+field and a 'password' field. make email_adress the primary key.
+
+you need create a table called marks which has 'entry_id' field, 'email_adress' field, 'mark' field, 'assessment_name' field,
+'course' field. make 'entry_id' the primary key and set it to auto increment.
+
+you need create a table called info which has 'course' field, 'assessment_name' field,
+'weaghting' field, and 'total' field.
+
+you need create a table called plagiarism which has 'email_adress' field, 'course' field,
+'assessment_name' field, and 'plagiarized' field.
+
+then you need to unzip the coms folder and place it on the wamp/www directory
+
+then on your web browser type localhost/coms then you will be at the home page.
+
+
